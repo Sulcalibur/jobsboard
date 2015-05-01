@@ -1,0 +1,29 @@
+// Place all the styles related to the jobs controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+	background: RGBA(207, 195, 187, 1);
+	color: white;
+	font: 14px/1.5 Helvetica, Arial, sans-serif;
+	margin: 20px auto;
+	width: 500px;
+}
+
+a {
+	color: RGBA(95, 106, 118, 1);
+	text-decoration: none;
+}
+
+.listing {
+	padding: 2em 0;
+	border-bottom: 1px RGBA(164, 129, 118, 1) solid;
+}
+
+h2 {
+	color: RGBA(95, 106, 118, 1);
+}
+
+h1, .addjob {
+	text-align: center;
+}
