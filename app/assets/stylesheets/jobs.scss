@@ -6,8 +6,8 @@ body {
 	background: RGBA(207, 195, 187, 1);
 	color: white;
 	font: 14px/1.5 Helvetica, Arial, sans-serif;
-	margin: 20px auto;
-	width: 500px;
+	// margin: 20px auto;
+	// width: 500px;
 }
 
 a {
@@ -26,4 +26,18 @@ h2 {
 
 h1, .addjob {
 	text-align: center;
+}
+
+label {
+	width: 100%;
+	text-align: center;
+}
+
+input {
+	width: 80%;
+	padding: 0.3em 1em;
+	color: #E1E1E1;
+	border-radius: 5px;
+	margin: 0 10%;
+	font-weight: bold;
 }

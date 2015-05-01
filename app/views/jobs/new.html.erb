@@ -1,6 +1,14 @@
 <%= simple_form_for @job do |form| %>
-	<%= form.input :title, label: "Job title" %>
-	<%= form.input :company, label: "Your company" %>
-	<%= form.input :url, label: "Link to job" %>
-	<%= form.button :submit %>
+	<div class="form-group">
+		<%= form.input :title, label: "Job title", class: 'form-control' %>
+	</div>
+	<div class="form-group">
+		<%= form.input :company, label: "Your company", class: 'form-control' %>
+	</div>
+	<div class="form-group">
+		<%= form.input :url, label: "Link to job", class: 'form-control' %>
+	</div>
+	<div class="form-group">
+		<%= form.button :submit, class: 'btn btn-default' %>
+	</div>
 <% end %>
