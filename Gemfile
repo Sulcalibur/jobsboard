@@ -8,7 +8,7 @@ group :development do
 end
 group :production do
   # gem 'pg'
-  gem 'pg', '~> 0.18.1'
+  gem 'pg', '~> 1.1.4'
 end
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
